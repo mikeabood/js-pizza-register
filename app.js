@@ -1,14 +1,14 @@
 var orderCount = 0;
-var tax 	   = 0.06; 
+var tax 	     = 0.09; 
 
 // Order input
 function takeOrder(topping, crustType) {
   console.log('Order: ' + crustType + ' crust topped with ' + topping);
   orderCount = orderCount + 1;
 }
-//Based on $7.50 per pizza
+//Based on $10.50 per pizza
 function getSubTotal(itemCount) {
-  return itemCount * 7.5;
+  return itemCount * 10.5;
 }
 // Get tax of item 
 function getTax() {
