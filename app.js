@@ -1,5 +1,5 @@
 var orderCount = 0;
-var tax 	     = 0.09; 
+var tax = 0.09; 
 
 // Order input
 function takeOrder(topping, crustType) {
